@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(90deg, rgba(255,88,0,0.7) 73%, rgba(245,118,8,0.7) 97%), url(https://teamrrq.com/assets/media/rrq%20hoshi%20season%2010-Hoshi%20s10%20wallpaper-p.336x600.jpg);
+  z-index: -1;
+  background-size: cover;
+}
+
+body {
+  font-family: Lato, sans-serif;
+}
+
+h1, p {
+  text-align: center;
+}
+
+form {
+  background-color: black;
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 20px 40px;
+  color: white;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 5px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"], input[type="number"], input[type="email"], select {
+  display: block;
+  margin-top: 5px;
+  width: 100%;
+  height: 40px;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: inherit;
+}
+
+input[type="radio"] {
+  margin-bottom: 10px;
+}
+
+label[for="player"], label[for="dropdown"] {
+  margin-top: 10px;
+}
+
+label[for="checkbox"] {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+label[for="comments"] {
+  margin-top: 10px;
+  margin-bottom: 2px;
+  display: block;
+}
+
+button {
+  font-weight: bold;
+  width: 100%;
+  height: 40px;
+  margin-top: 15px;
+  border-radius: 10px;
+  border: 0;
+  background-color: green;
+}
+
+textarea {
+  width: 100%;
+}
